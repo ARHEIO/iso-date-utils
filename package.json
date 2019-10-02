@@ -1,13 +1,18 @@
 {
   "name": "@arheio/iso-date-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARHEIO/iso-date-utils.git"
+  },
   "author": "arheio",
   "license": "MIT",
+  "homepage": "https://github.com/ARHEIO/iso-date-utils#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.1",
